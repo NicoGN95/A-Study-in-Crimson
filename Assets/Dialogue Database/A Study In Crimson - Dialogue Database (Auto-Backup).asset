@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: A Study In Crimson - Dialogue Database
+  m_Name: A Study In Crimson - Dialogue Database (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -105,28 +105,6 @@ MonoBehaviour:
     fields:
     - title: Name
       value: Voces
-      type: 0
-      typeString: 
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
-    - title: IsPlayer
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
-    alternatePortraits: []
-    spritePortraits: []
-  - id: 5
-    fields:
-    - title: Name
-      value: S.H.R.LOCK
       type: 0
       typeString: 
     - title: Pictures
@@ -2325,7 +2303,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2333,10 +2311,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Me tropiezo y caigo al suelo cuando intento levantarme de la cama)\n\n\"Rel\xE1jate,
-          estas a salvo ahora. Nuestros exploradores te encontraron malherido y casi
-          muerto.\" \n\n\"Logramos estabilizarte y coserte. De nada, por cierto.\"\n\n(La
-          miro confundido)"
+        value: "(Me tropiezo y caigo al suelo cuando intento levantarme de la cama)\n<i>sonido
+          de golpe</i>\n\n\"Rel\xE1jate, estas a salvo ahora. Nuestros exploradores
+          te encontraron malherido y casi muerto.\" - Responde r\xE1pido la mujer.
+          \"Logramos estabilizarte y coserte. De nada, por cierto.\"\n\n(La miro
+          confundido)"
         type: 0
         typeString: 
       - title: Sequence
@@ -2398,10 +2377,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(La mujer se ve sorprendida)\n\n\"Te encontramos justo a tiempo,
-          \xBFS\xE1bes?\"\n\n \"Al menos pareces estar bien ahora. Te he curado y
-          ahora deberias recuperarte bien, siempre y cuando no hagas locuras.\"\n\n(La
-          miro confundido)"
+        value: "(La mujer se ve sorprendida)\n<i>Sonr\xEDe</i>\n\n\"Te encontramos
+          justo a tiemo, \xBFS\xE1bes?\" - Dijo con una expresion de inquietud. \"Al
+          menos pareces estar bien ahora. Te he curado y ahora deberias recuperarte
+          bien, siempre y cuando no hagas locuras.\"\n\n(La miro confundido)"
         type: 0
         typeString: 
       - title: Sequence
@@ -2436,7 +2415,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 500
-        y: 897.82605
+        y: 900
         width: 160
         height: 30
     - id: 7
@@ -2463,8 +2442,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Los exploradores solo te trajeron a ti.\" \n\n\"Dijeron que tu
-          eras la \xFAnica se\xF1al de vida que pudieron encontrar.\"\n\n(Quiz\xE1s
+        value: "(Ella me mira con expresi\xF3n de tristeza)\n\n\"Los exploradores
+          solo te trajeron a ti.\" - Dijo con tono de preocupaci\xF3n. \"Dijeron
+          que tu eras la \xFAnica se\xF1al de vida que pudieron encontrar.\"\n\n(Quiz\xE1s
           deber\xEDa calmarme)"
         type: 0
         typeString: 
@@ -2526,9 +2506,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Lamento decir que no.\"\n\n\"El equipo de rescato dijo que eras
-          el \xFAnico con vida cuando llegaron a la zona.\"\n\n(Me doy cuenta de
-          que a ella le importa mucho mi respuesta)"
+        value: "(Su expresi\xF3n autom\xE1ticamente cambia a una de preocupaci\xF3n)\n\n\"Lamento
+          decir que no.\" - Contesta. \"El equipo de rescato dijo que eras el \xFAnico
+          con vida cuando llegaron a la zona.\"\n\n(Me doy cuenta de que a ella le
+          importa mucho mi respuesta)"
         type: 0
         typeString: 
       - title: Sequence
@@ -2590,12 +2571,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '"Es Lucy Ferrier. Soy la jefa de medicina de este puesto de avanzada."
-
-
-          "No
-          nos gusta involucrarnos en este conflicto, y no queremos problemas en nuestra
-          comunidad."'
+        value: "(Me mir\xF3, levemente sonrojada)\n\n\"Es Lucy Ferrier. Soy la jefa
+          de medicina de este puesto de avanzada.\" - Contesta. \"No nos gusta involucrarnos
+          en este conflicto, y no queremos problemas en nuestra comunidad.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2651,10 +2629,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Soy Lucy Ferrier, la jefa de medicina de este puesto de avanzada.\"
-          \n\n(Claramente se puede valer por si misma cuando la confrontan). \n\n\"Nosotros
-          no nos involucramos en este conflicto, y ciertamente no queremos problemas
-          en nuestra comunidad.\""
+        value: "(Me mira asustada)\n\n\"Soy Lucy Ferrier, la jefa de medicina de
+          este puesto de avanzada.\" - Responde r\xE1pido pero con tono duro. Claramente
+          se puede valer por si misma cuando la confrontan. \"Nosotros no nos involucramos
+          en este conflicto, y ciertamente no queremos problemas en nuestra comunidad.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2697,11 +2675,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2709,11 +2687,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Han pasado 3 meses desde que las personas del puesto de avanzada
-          Abbatis Villa me salvaron, y ya me han aceptado como un integrante m\xE1s.\nTodav\xEDa
-          sigo sin poder comunicarme con mi lider de pelot\xF3n, o con cualquier
-          miembro del ejercito, llegado el caso. Parece que la guerrilla ha bloqueado
-          todas las comunicaciones en esta parte del planeta.\n\nEs por eso que decid\xED
+        value: "<i>En el medio de las vastas planicies de Marte, se puede ver un
+          domo de vidrio que contiene varios edificios habitables.</i>\n\nHan pasado
+          3 meses desde que las personas del puesto de avanzada Abbatis Villa me
+          salvaron, y ya me han aceptado como un integrante m\xE1s.\nTodav\xEDa sigo
+          sin poder comunicarme con mi lider de pelot\xF3n, o con cualquier miembro
+          del ejercito, llegado el caso. Parece que la guerrilla ha bloqueado todas
+          las comunicaciones en esta parte del planeta.\n\nEs por eso que decid\xED
           intentar arreglar una vieja antena de comunicaciones de larga distancia,
           en una colina a unos cuantos kilometros de aqu\xED."
         type: 0
@@ -2758,11 +2738,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2831,7 +2811,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Ah, Sr. Hope. \xBFQu\xE9 lo trae a mi officina hoy?\""
+        value: "<i>Transici\xF3n a la Oficina de Ferrier en el Hospital</i>\n\n(La
+          Doctora se ve ocupada con papeleo, pero inmediatamente levanta la cabeza
+          cuando entro)\n\n\"Ah, Sr. Hope. \xBFQu\xE9 lo trae a mi officina hoy?\"-
+          Pregunta con un leve sonrojo y una sonrisa en su cara."
         type: 0
         typeString: 
       - title: Sequence
@@ -2893,8 +2876,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"De acuerdo, Jeff.\" \n\n\"\xBFViniste a conversar, o hay algo que
-          quisieras preguntar?\"\n\n(Su mirada me nubla. No creo tener el coraje
+        value: "<i>Su expresi\xF3n se vuelve visiblemente fel\xEDz.</i>\n\n\"De acuerdo,
+          Jeff.\" - Dijo, casi ri\xE9ndose. \"\xBFViniste a conversar, o hay algo
+          que quisieras preguntar?\"\n\n(Su mirada me nubla. No creo tener el coraje
           suficiente para admitir mis sentimientos ahora mismo.)"
         type: 0
         typeString: 
@@ -2930,7 +2914,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 300
-        y: 2098.7341
+        y: 2100
         width: 160
         height: 30
     - id: 15
@@ -2957,9 +2941,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"No fue mi intencion ofenderle, Jeff.\" \n\n\"De todas formas, \xBFTen\xEDas
-          que preguntarme algo?\"\n\n(No quiero arruinar lo que tenemos. Deber\xEDa
-          calmarme y juntar coraje para admitir mis sentimientos hacia ella.)"
+        value: "<i>La expresi\xF3n de Lucy cambia a una de confusi\xF3n</i>\n\n\"No
+          fue mi intencion ofenderle, Jeff.\" - Dice con leve frustraci\xF3n. \"De
+          todas formas, \xBFTen\xEDas que preguntarme algo?\"\n\n(No quiero arruinar
+          lo que tenemos. Deber\xEDa calmarme y juntar coraje para admitir mis sentimientos
+          hacia ella.)"
         type: 0
         typeString: 
       - title: Sequence
@@ -3021,7 +3007,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Oh. \xBFSe encuentra todo bien?\"\n\n(No fue mi intenci\xF3n asustarla.
+        value: "<i>Inmediatamente ella se preocupa.</i>\n\n\"Oh. \xBFSe encuentra
+          todo bien?\" - Pregunta de inmediato.\n\n(No fue mi intenci\xF3n asustarla.
           Ella siempre quiere ayudar a las personas. Quiz\xE1s sea eso lo que me
           enamor\xF3)."
         type: 0
@@ -3078,8 +3065,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"\xBFEsta todo bien?\"\n\n(Ella siempre quiere ayudar a los dem\xE1s.
-          Probablemente sea eso lo que hizo que me enamore de ella)."
+        value: "<i>Lucy sonrie con un brillo de curiosidad en sus ojos.</i>\n\n-Contesta
+          mostrando algo de preocupaci\xF3n. \"\xBFEsta todo bien?\"\n\n(Ella siempre
+          quiere ayudar a los dem\xE1s. Probablemente sea eso lo que hizo que me
+          enamore de ella)."
         type: 0
         typeString: 
       - title: Sequence
@@ -3122,11 +3111,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3136,9 +3125,10 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "\"Ya casi termino de reparar la antena de larga distancia en la cima
           de la colina, y hay algunas cosas que siento que debo decirte antes de
-          que eventualmente me vaya.\"\n\nLucy Interrumpe:\n\"Yo tambi\xE9n tengo
-          algo que decirte\" \n\"Pero, mientras tanto, hay algo que quisiera darte.\"\n\n(Abre
-          uno de los cajones de su escritorio y saca un collar.)"
+          que eventualmente me vaya.\" - Digo, antes de que ella me interrumpa.\n\n\"Yo
+          tambi\xE9n tengo algo que decirte\" - Comenta en un tono nervioso. \"Pero,
+          mientras tanto, hay algo que quisiera darte.\"\n\n(Abre uno de los cajones
+          de su escritorio y saca un collar.)"
         type: 0
         typeString: 
       - title: Sequence
@@ -3185,7 +3175,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3193,8 +3183,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Quiero que tengas esto.\"\n\n\"Para que nos recuerdes si es que
-          te terminas yendo.\"\n\n(Me doy cuenta de que esta conteniendo las l\xE1grimas)"
+        value: "\"Quiero que tengas esto.\" - Dijo. \"Para que nos recuerdes si es
+          que te terminas yendo.\"\n\n(Me doy cuenta de que esta conteniendo las
+          l\xE1grimas)"
         type: 0
         typeString: 
       - title: Sequence
@@ -3229,7 +3220,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 400
-        y: 2697.8262
+        y: 2700
         width: 160
         height: 30
     - id: 20
@@ -3247,7 +3238,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3255,7 +3246,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Esta hecho de rocas que solo se encuentran aqu\xED, \xBFS\xE1bes?\" "
+        value: "\"Esta hecho de rocas que solo se encuentran aqu\xED, \xBFS\xE1bes?\"
+          - Aclara con una sonrisa y una leve risa."
         type: 0
         typeString: 
       - title: Sequence
@@ -3302,7 +3294,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3310,8 +3302,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"No tienes que decir nada.\" \n\"Esta hecho de rocas que solo se
-          encuentran aqu\xED, \xBFS\xE1bes?\""
+        value: "\"No tienes que decir nada.\" - Aclara con una sonrisa y una leve
+          risa. \"Esta hecho de rocas que solo se encuentran aqu\xED, \xBFS\xE1bes?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3354,11 +3346,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3366,11 +3358,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Mientras preparo mis herramientas y me voy acercando hacia la antena,
-          comienzo a dudar sobre mi decisi\xF3n de contactarme con el ej\xE9rcito.
-          Pero, habiendo jurado lealtad a este planeta, decido continuar.\n\nLuego
-          de conectar los \xFAltimos cables, consigo finalmente comunicarme con el
-          Cuartel General y les transmito mi posici\xF3n."
+        value: "<i>Una figura solitaria va subiendo por una colina</i>\n\nMientras
+          preparo mis herramientas y me voy acercando hacia la antena, comienzo a
+          dudar sobre mi decisi\xF3n de contactarme con el ej\xE9rcito. Pero, habiendo
+          jurado lealtad a este planeta, decido continuar.\n\nLuego de conectar los
+          \xFAltimos cables, consigo finalmente comunicarme con el Cuartel General
+          y les transmito mi posici\xF3n.\n\n<i>A lo lejos se escucha una explosi\xF3n.</i>"
         type: 0
         typeString: 
       - title: Sequence
@@ -3398,7 +3391,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 397.8261
+        x: 400
         y: 3100
         width: 160
         height: 30
@@ -3413,11 +3406,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3425,8 +3418,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Pero eso no es lo que realmente sucedio.\"  \n\n\"\xBFNo es cierto,
-          Sr.Hope?\""
+        value: "<i>La pantalla se vuelve negra y una tenue luz azul comienza a irradiar
+          desde abajo.</i>\n\n\"Pero eso no es lo que realmente sucedio.\" - Interrumpe
+          S.H.R.LOCK repentinamente. \"\xBFNo es cierto, Sr.Hope?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3469,11 +3463,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3481,7 +3475,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"\xBFPor qu\xE9 no nos cuenta lo que realmente sucedi\xF3?\""
+        value: "<i>S.H.R.LOCK finalmente se revela en medio de la pantalla, con una
+          mirada juiciosa.</i>\n\n\"\xBFPor qu\xE9 no nos cuenta lo que realmente
+          sucedi\xF3?\" - Presiona la IA.\n\nEND OF DEMO"
         type: 0
         typeString: 
       - title: Sequence
@@ -3495,13 +3491,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 4
-        originDialogueID: 24
-        destinationConversationID: 4
-        destinationDialogueID: 57
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -3509,7 +3499,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 395.6522
+        x: 400
         y: 3500
         width: 160
         height: 30
@@ -3658,7 +3648,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3714,7 +3704,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3771,7 +3761,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3828,7 +3818,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3883,7 +3873,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3940,7 +3930,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3995,7 +3985,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -5300,58 +5290,9 @@ MonoBehaviour:
         y: 3345
         width: 160
         height: 30
-    - id: 57
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: END OF DEMO
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 4
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 406.52176
-        y: 3610.8696
-        width: 160
-        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 154.34845, y: 1663.2427}
-    canvasZoom: 0.45999998
+    canvasScrollPosition: {x: 153.75743, y: 7.1488132}
+    canvasZoom: 0.9999995
   syncInfo:
     syncActors: 0
     syncItems: 0
