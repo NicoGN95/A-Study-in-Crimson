@@ -10,6 +10,8 @@ public class BackgroundManager : MonoBehaviour
     [SerializeField] private GameObject _marsDomeOutpost;
     [SerializeField] private GameObject _hospitalOffice;
     [SerializeField] private GameObject _antennaDunes;
+    [SerializeField] private GameObject _sherlockAppears;
+    [SerializeField] private GameObject _sherlockReveals;
 
 
     // Start is called before the first frame update
@@ -21,7 +23,8 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(false);
         _hospitalOffice.SetActive(false);
         _antennaDunes.SetActive(false);
-
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
     }
 
     public void ActivateMarsBattlefield()
@@ -32,6 +35,8 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(false);
         _hospitalOffice.SetActive(false);
         _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
     }
 
     public void ActivateMarsDunes()
@@ -42,6 +47,8 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(false);
         _hospitalOffice.SetActive(false);
         _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
     }
 
     public void ActivateHospitalRoom()
@@ -52,6 +59,8 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(false);
         _hospitalOffice.SetActive(false);
         _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
     }
     public void ActivateMarsDomeOutpost()
     {
@@ -61,6 +70,8 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(true);
         _hospitalOffice.SetActive(false);
         _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
     }
     public void ActivateHospitalOffice()
     {
@@ -70,6 +81,8 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(false);
         _hospitalOffice.SetActive(true);
         _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
     }
     public void ActivateAntennaDunes()
     {
@@ -79,5 +92,30 @@ public class BackgroundManager : MonoBehaviour
         _marsDomeOutpost.SetActive(false);
         _hospitalOffice.SetActive(false);
         _antennaDunes.SetActive(true);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(false);
+    }
+    public void ActivateSherlockAppears()
+    {
+        _marsBattlefield.SetActive(false);
+        _marsDunes.SetActive(false);
+        _hospitalRoom.SetActive(false);
+        _marsDomeOutpost.SetActive(false);
+        _hospitalOffice.SetActive(false);
+        _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(true);
+        _sherlockReveals.SetActive(false);
+    }
+
+    public void ActivateSherlockReveals()
+    {
+        _marsBattlefield.SetActive(false);
+        _marsDunes.SetActive(false);
+        _hospitalRoom.SetActive(false);
+        _marsDomeOutpost.SetActive(false);
+        _hospitalOffice.SetActive(false);
+        _antennaDunes.SetActive(false);
+        _sherlockAppears.SetActive(false);
+        _sherlockReveals.SetActive(true);
     }
 }
