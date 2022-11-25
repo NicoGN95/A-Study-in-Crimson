@@ -77,12 +77,21 @@ MonoBehaviour:
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 2800000, guid: 76f209c23e9afae4cbf5e5cb1359356e, type: 3}
     spritePortrait: {fileID: 0}
-    alternatePortraits: []
+    alternatePortraits:
+    - {fileID: 2800000, guid: 802bbd5a0a95ee9438b65d2a78ccaeb1, type: 3}
+    - {fileID: 2800000, guid: 893221d41c695324b93adc69e2658eb0, type: 3}
+    - {fileID: 2800000, guid: 45d75cbbcaa324843a4ae5c71b110d9e, type: 3}
+    - {fileID: 2800000, guid: bbc3aa5afe6ea00468dfe043073a1601, type: 3}
+    - {fileID: 2800000, guid: a1e3d47e5fd339b4fa2ed048a0ee45b4, type: 3}
+    - {fileID: 2800000, guid: c5f9afdda34d82b47bec2e0570ac06a4, type: 3}
+    - {fileID: 2800000, guid: 8395e4f2d2f65884992bc069b991336d, type: 3}
+    - {fileID: 2800000, guid: dd6b3c9d171cff345b0fb84be395c02c, type: 3}
+    - {fileID: 2800000, guid: 120aa69bae36a68449deef14c31218b2, type: 3}
     spritePortraits: []
   - id: 3
     fields:
     - title: Name
-      value: Narrador
+      value: Jefferson
       type: 0
       typeString: 
     - title: Pictures
@@ -144,6 +153,37 @@ MonoBehaviour:
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
+    spritePortraits: []
+  - id: 6
+    fields:
+    - title: Name
+      value: ???
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Lucy Ferrier before revealing her name
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 2800000, guid: 76f209c23e9afae4cbf5e5cb1359356e, type: 3}
+    spritePortrait: {fileID: 0}
+    alternatePortraits:
+    - {fileID: 2800000, guid: 120aa69bae36a68449deef14c31218b2, type: 3}
+    - {fileID: 2800000, guid: dd6b3c9d171cff345b0fb84be395c02c, type: 3}
+    - {fileID: 2800000, guid: 8395e4f2d2f65884992bc069b991336d, type: 3}
+    - {fileID: 2800000, guid: c5f9afdda34d82b47bec2e0570ac06a4, type: 3}
+    - {fileID: 2800000, guid: a1e3d47e5fd339b4fa2ed048a0ee45b4, type: 3}
+    - {fileID: 2800000, guid: bbc3aa5afe6ea00468dfe043073a1601, type: 3}
+    - {fileID: 2800000, guid: 45d75cbbcaa324843a4ae5c71b110d9e, type: 3}
+    - {fileID: 2800000, guid: 893221d41c695324b93adc69e2658eb0, type: 3}
+    - {fileID: 2800000, guid: 802bbd5a0a95ee9438b65d2a78ccaeb1, type: 3}
     spritePortraits: []
   items:
   - id: 1
@@ -242,11 +282,11 @@ MonoBehaviour:
       - title: Title
         value: START
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -258,15 +298,24 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: 'SetActive(BattlefieldBackground, true);
+
+          SetActive(S.H.R.LOCKReveals,
+          false);
+
+          {{default}}'
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 9773382c-855e-4a76-b9ca-0bee4fd8937d
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -288,8 +337,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 20
+        x: 461.81824
+        y: 12.72728
         width: 160
         height: 30
     - id: 1
@@ -315,10 +364,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: En este nuevo mundo nos habian prometido libertad. Libertad para hacer
-          nuestras vidas. Libertad para hacer nuestro propio futuro. Pero hay quienes
-          han amenazado nuestra libertad. Utilizan excusas baratas para justificar
-          sus actos de terror sobre nuestras tierras. Nuestra propiedad.
+        value: "En este nuevo mundo nos hab\xEDan prometido libertad. Libertad para
+          hacer nuestras vidas. Libertad para hacer nuestro propio futuro. Pero hay
+          quienes han amenazado nuestra libertad. Utilizan excusas baratas para justificar
+          sus actos de terror sobre nuestras tierras. Nuestra propiedad."
         type: 0
         typeString: 
       - title: Sequence
@@ -350,8 +399,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 70
+        x: 456.36368
+        y: 68.18182
         width: 160
         height: 30
     - id: 2
@@ -378,8 +427,8 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Estos monstruos me han dejado por muerto. Con el tanque de ox\xEDgeno
-          perforado, no me queda mucho tiempo, asique estoy grabando esto como mi
-          mensaje final, y es mi honor morir por este planeta."
+          perforado, no me queda mucho tiempo, as\xED que estoy grabando esto como
+          mi mensaje final, y es mi honor morir por este planeta."
         type: 0
         typeString: 
       - title: Sequence
@@ -411,8 +460,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 170
+        x: 456.36368
+        y: 168.18182
         width: 160
         height: 30
     - id: 3
@@ -430,7 +479,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -439,9 +488,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "- Se escucha el eco de una voz\n\"<b>\xA1Este todav\xEDa tiene signos
-          vitales!</b>\"\n\n- Otra voz se distingue\n\"Multiples heridas en el traje
-          y...\" (hace una pausa) \"<b>\xA1Maldici\xF3n!</b> Esta perdiendo ox\xEDgeno.
-          Necesitamos llevarlo a un m\xF3dulo lo antes posible.\""
+          vitales!</b>\""
         type: 0
         typeString: 
       - title: Sequence
@@ -459,7 +506,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 3
         destinationConversationID: 4
-        destinationDialogueID: 27
+        destinationDialogueID: 59
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -469,8 +516,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 270
+        x: 456.36368
+        y: 268.18182
         width: 160
         height: 30
     - id: 4
@@ -484,7 +531,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -496,8 +543,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"No hagas ning\xFAn movimiento repentino, o abriras la sutura.\" 
-          \n\n\"Debes ser el hombre mas afortunado de esta roca. Los exploradores
+        value: "\"Debes ser el hombre m\xE1s afortunado de esta roca. Los exploradores
           te encontraron con menos de un minuto de ox\xEDgeno en tu traje.\""
         type: 0
         typeString: 
@@ -506,7 +552,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: EventGuid
-        value: 8a95a19a-b444-4ed0-8df8-c0318c1b7111
+        value: 9449c8ce-7870-4d50-a9af-512b8869e796
         type: 0
         typeString: 
       conversationID: 4
@@ -536,8 +582,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 370
+        x: 471.0357
+        y: 611.0472
         width: 160
         height: 30
     - id: 5
@@ -551,7 +597,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -563,14 +609,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Me tropiezo y caigo al suelo cuando intento levantarme de la cama)\n\n\"Rel\xE1jate,
-          estas a salvo ahora. Nuestros exploradores te encontraron malherido y casi
-          muerto.\" \n\n\"Logramos estabilizarte y coserte. De nada, por cierto.\"\n\n(La
-          miro confundido)"
+        value: '"Logramos estabilizarte y coserte. De nada, por cierto."
+
+
+          (La
+          miro confundido)'
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(???, pic=8 )
         type: 0
         typeString: 
       conversationID: 4
@@ -600,8 +647,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 470
+        x: 234.6614
+        y: 813.16736
         width: 160
         height: 30
     - id: 6
@@ -616,7 +663,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -628,14 +675,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(La mujer se ve sorprendida)\n\n\"Te encontramos justo a tiempo,
-          \xBFS\xE1bes?\"\n\n \"Al menos pareces estar bien ahora. Te he curado y
-          ahora deberias recuperarte bien, siempre y cuando no hagas locuras.\"\n\n(La
-          miro confundido)"
+        value: "\"Al menos pareces estar bien ahora. Te he curado y ahora deber\xEDas
+          recuperarte bien, siempre y cuando no hagas locuras.\"\n\n(La miro confundido)"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(???, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -665,8 +710,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 470
+        x: 741.5469
+        y: 804.30664
         width: 160
         height: 30
     - id: 7
@@ -681,7 +726,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -693,13 +738,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Los exploradores solo te trajeron a ti.\" \n\n\"Dijeron que tu
+        value: "\"Los exploradores solo te trajeron a ti.\" \n\n\"Dijeron que t\xFA
           eras la \xFAnica se\xF1al de vida que pudieron encontrar.\"\n\n(Quiz\xE1s
           deber\xEDa calmarme)"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(???, pic=8 )
         type: 0
         typeString: 
       conversationID: 4
@@ -729,8 +774,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 570
+        x: 231.36649
+        y: 996.2645
         width: 160
         height: 30
     - id: 8
@@ -744,7 +789,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -756,13 +801,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Lamento decir que no.\"\n\n\"El equipo de rescato dijo que eras
+        value: "\"Lamento decir que no.\"\n\n\"El equipo de rescate dijo que eras
           el \xFAnico con vida cuando llegaron a la zona.\"\n\n(Me doy cuenta de
           que a ella le importa mucho mi respuesta)"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(???, pic=8 )
         type: 0
         typeString: 
       conversationID: 4
@@ -792,8 +837,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 570
+        x: 755.7009
+        y: 992.31726
         width: 160
         height: 30
     - id: 9
@@ -820,12 +865,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '"Es Lucy Ferrier. Soy la jefa de medicina de este puesto de avanzada."
-
-
-          "No
-          nos gusta involucrarnos en este conflicto, y no queremos problemas en nuestra
-          comunidad."'
+        value: '"Es Lucy Ferrier. Soy la jefa de medicina de este puesto de avanzada."'
         type: 0
         typeString: 
       - title: Sequence
@@ -843,18 +883,18 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 9
         destinationConversationID: 4
-        destinationDialogueID: 38
+        destinationDialogueID: 66
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: SetPortrait(Lucy Ferrier, pic=2 )
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 670
+        x: 226.04926
+        y: 1106.7368
         width: 160
         height: 30
     - id: 10
@@ -882,13 +922,11 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "\"Soy Lucy Ferrier, la jefa de medicina de este puesto de avanzada.\"
-          \n\n(Claramente se puede valer por si misma cuando la confrontan). \n\n\"Nosotros
-          no nos involucramos en este conflicto, y ciertamente no queremos problemas
-          en nuestra comunidad.\""
+          \n\n(Claramente se puede valer por s\xED misma cuando la confrontan). \n"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=10)
         type: 0
         typeString: 
       conversationID: 4
@@ -902,7 +940,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 10
         destinationConversationID: 4
-        destinationDialogueID: 39
+        destinationDialogueID: 67
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -912,8 +950,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 670
+        x: 746.7378
+        y: 1114.5775
         width: 160
         height: 30
     - id: 11
@@ -941,11 +979,9 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "Han pasado 3 meses desde que las personas del puesto de avanzada
           Abbatis Villa me salvaron, y ya me han aceptado como un integrante m\xE1s.\nTodav\xEDa
-          sigo sin poder comunicarme con mi lider de pelot\xF3n, o con cualquier
-          miembro del ejercito, llegado el caso. Parece que la guerrilla ha bloqueado
-          todas las comunicaciones en esta parte del planeta.\n\nEs por eso que decid\xED
-          intentar arreglar una vieja antena de comunicaciones de larga distancia,
-          en una colina a unos cuantos kilometros de aqu\xED."
+          sigo sin poder comunicarme con mi l\xEDder de pelot\xF3n, o con cualquier
+          miembro del ej\xE9rcito, llegado el caso. Parece que la guerrilla ha bloqueado
+          todas las comunicaciones en esta parte del planeta."
         type: 0
         typeString: 
       - title: Sequence
@@ -967,7 +1003,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 11
         destinationConversationID: 4
-        destinationDialogueID: 40
+        destinationDialogueID: 63
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -977,8 +1013,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 770
+        x: 477.75977
+        y: 1248.8962
         width: 160
         height: 30
     - id: 12
@@ -1004,13 +1040,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "A esta altura, el ejercito probablemente crea que estoy muerto. Me
-          enfurece no poder defender a este hermoso planeta; aunque debo admitir
+        value: "A esta altura, el ej\xE9rcito probablemente crea que estoy muerto.
+          Me enfurece no poder defender a este hermoso planeta; aunque debo admitir
           que me alivia no tener que estar ah\xED fuera. Se podr\xEDa decir que he
-          entablado algunas amistades aqu\xED.\n\nDe hecho, la joven se\xF1orita
-          Lucy y yo hemos estado pasando alg\xFAn tiempo a solas, y estoy comenzando
-          a creer que nuestra relaci\xF3n se hace mas fuerte con cada d\xEDa que
-          pasa."
+          entablado algunas amistades aqu\xED."
         type: 0
         typeString: 
       - title: Sequence
@@ -1028,7 +1061,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 12
         destinationConversationID: 4
-        destinationDialogueID: 41
+        destinationDialogueID: 64
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1038,8 +1071,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 870
+        x: 478.3538
+        y: 1434.8185
         width: 160
         height: 30
     - id: 13
@@ -1065,11 +1098,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Ah, Sr. Hope. \xBFQu\xE9 lo trae a mi officina hoy?\""
+        value: "\"Ah, Sr. Hope. \xBFQu\xE9 lo trae a mi oficina hoy?\""
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       - title: EventGuid
@@ -1103,8 +1136,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 970
+        x: 475.05707
+        y: 1602.95
         width: 160
         height: 30
     - id: 14
@@ -1132,12 +1165,12 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "\"De acuerdo, Jeff.\" \n\n\"\xBFViniste a conversar, o hay algo que
-          quisieras preguntar?\"\n\n(Su mirada me nubla. No creo tener el coraje
+          quisieras preguntar?\"\n\n(Su mirada nubla mi mente. No creo tener el coraje
           suficiente para admitir mis sentimientos ahora mismo.)"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=3)
         type: 0
         typeString: 
       conversationID: 4
@@ -1167,8 +1200,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1070
+        x: 296.15594
+        y: 1702.95
         width: 160
         height: 30
     - id: 15
@@ -1195,13 +1228,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"No fue mi intencion ofenderle, Jeff.\" \n\n\"De todas formas, \xBFTen\xEDas
-          que preguntarme algo?\"\n\n(No quiero arruinar lo que tenemos. Deber\xEDa
-          calmarme y juntar coraje para admitir mis sentimientos hacia ella.)"
+        value: "\"No fue mi intenci\xF3n ofenderle, Jeff.\" \n\n\"De todas formas,
+          \xBFTen\xEDas que preguntarme algo?\"\n\n(No quiero arruinar lo que tenemos.
+          Deber\xEDa calmarme y juntar coraje para admitir mis sentimientos hacia
+          ella.)"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=9)
         type: 0
         typeString: 
       conversationID: 4
@@ -1231,8 +1265,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1070
+        x: 655.057
+        y: 1702.95
         width: 160
         height: 30
     - id: 16
@@ -1265,7 +1299,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=4)
         type: 0
         typeString: 
       conversationID: 4
@@ -1289,8 +1323,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1170
+        x: 299.3124
+        y: 1802.95
         width: 160
         height: 30
     - id: 17
@@ -1316,12 +1350,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"\xBFEsta todo bien?\"\n\n(Ella siempre quiere ayudar a los dem\xE1s.
+        value: "\"\xBFEst\xE1 todo bien?\"\n\n(Ella siempre quiere ayudar a los dem\xE1s.
           Probablemente sea eso lo que hizo que me enamore de ella)."
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -1345,8 +1379,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1170
+        x: 655.057
+        y: 1802.95
         width: 160
         height: 30
     - id: 18
@@ -1402,8 +1436,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1270
+        x: 475.05707
+        y: 1902.95
         width: 160
         height: 30
     - id: 19
@@ -1430,11 +1464,11 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "\"Quiero que tengas esto.\"\n\n\"Para que me recuerdes si es que
-          te terminas yendo.\"\n\n(Me doy cuenta de que esta conteniendo las l\xE1grimas)"
+          te terminas yendo.\"\n\n(Me doy cuenta de que est\xE1 conteniendo las l\xE1grimas)"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=8)
         type: 0
         typeString: 
       conversationID: 4
@@ -1464,8 +1498,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 1556.3014
+        x: 483.57733
+        y: 2093.647
         width: 160
         height: 30
     - id: 20
@@ -1491,11 +1525,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Esta hecho de rocas que solo se encuentran aqu\xED, \xBFS\xE1bes?\" "
+        value: "\"Est\xE1 hecho de rocas que solo se encuentran aqu\xED, \xBFSabes?\" "
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -1519,8 +1553,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 118.63016
-        y: 1656.3014
+        x: 303.57733
+        y: 2206.8337
         width: 160
         height: 30
     - id: 21
@@ -1546,12 +1580,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"No tienes que decir nada.\" \n\"Esta hecho de rocas que solo se
-          encuentran aqu\xED, \xBFS\xE1bes?\""
+        value: "\"No tienes que decir nada.\" \n\"Est\xE1 hecho de rocas que solo
+          se encuentran aqu\xED, \xBFSabes?\""
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -1575,8 +1609,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 478.63016
-        y: 1656.3014
+        x: 652.5884
+        y: 2211.1946
         width: 160
         height: 30
     - id: 22
@@ -1604,9 +1638,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "Mientras preparo mis herramientas y me voy acercando hacia la antena,
           comienzo a dudar sobre mi decisi\xF3n de contactarme con el ej\xE9rcito.
-          Pero, habiendo jurado lealtad a este planeta, decido continuar.\n\nLuego
-          de conectar los \xFAltimos cables, consigo finalmente comunicarme con el
-          Cuartel General y les transmito mi posici\xF3n."
+          Pero, habiendo jurado lealtad a este planeta, decido continuar."
         type: 0
         typeString: 
       - title: Sequence
@@ -1628,7 +1660,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 22
         destinationConversationID: 4
-        destinationDialogueID: 55
+        destinationDialogueID: 65
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1638,8 +1670,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 1756.3014
+        x: 470.42557
+        y: 2326.614
         width: 160
         height: 30
     - id: 23
@@ -1665,8 +1697,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Pero eso no es lo que realmente sucedio.\"  \n\n\"\xBFNo es cierto,
-          Sr.Hope?\""
+        value: "\"Pero eso no es lo que realmente sucedi\xF3.\"  \n\n\"\xBFNo es
+          cierto, Sr.Hope?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -1698,8 +1730,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 1856.3014
+        x: 480.51776
+        y: 2538.8037
         width: 160
         height: 30
     - id: 24
@@ -1757,8 +1789,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 1956.3014
+        x: 476.04016
+        y: 2649.251
         width: 160
         height: 30
     - id: 25
@@ -1812,8 +1844,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 120
+        x: 456.36368
+        y: 118.18182
         width: 160
         height: 30
     - id: 26
@@ -1867,8 +1899,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 220
+        x: 456.36368
+        y: 218.18182
         width: 160
         height: 30
     - id: 27
@@ -1912,7 +1944,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 27
         destinationConversationID: 4
-        destinationDialogueID: 4
+        destinationDialogueID: 60
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1922,8 +1954,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 320
+        x: 460.90912
+        y: 434.46487
         width: 160
         height: 30
     - id: 28
@@ -1950,7 +1982,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Molesto e inc\xF3modo) \xBFD\xF3nde estoy? \xBFQu\xEDen eres?"
+        value: "(Molesto e inc\xF3modo) \"\xBFD\xF3nde estoy? \xBFQui\xE9n eres?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -1968,7 +2000,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 28
         destinationConversationID: 4
-        destinationDialogueID: 5
+        destinationDialogueID: 62
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1978,8 +2010,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 420
+        x: 229.70209
+        y: 667.01465
         width: 160
         height: 30
     - id: 29
@@ -2006,8 +2038,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (Confiado e ingenioso) Los afortunados fueron ellos. Me hirieron por
-          pura suerte
+        value: (Confiado e ingenioso) "Los afortunados fueron ellos. Me hirieron
+          por pura suerte."
         type: 0
         typeString: 
       - title: Sequence
@@ -2025,7 +2057,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 29
         destinationConversationID: 4
-        destinationDialogueID: 6
+        destinationDialogueID: 61
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2035,8 +2067,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 420
+        x: 740.2311
+        y: 667.01465
         width: 160
         height: 30
     - id: 30
@@ -2063,8 +2095,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Desesperado) \xBFQu\xE9 has hecho? \xBFD\xF3nde esta el resto de
-          mi equipo?"
+        value: "(Desesperado) \"\xBFQu\xE9 has hecho? \xBFD\xF3nde est\xE1 el resto
+          de mi equipo?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2092,8 +2124,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 520
+        x: 66.22562
+        y: 921.2646
         width: 160
         height: 30
     - id: 31
@@ -2119,7 +2151,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Tranquilo) \xBFLograron salvar a alguien m\xE1s?"
+        value: "(Tranquilo) \"\xBFLograron salvar a alguien m\xE1s?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2147,8 +2179,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 520
+        x: 437.1019
+        y: 913.3699
         width: 160
         height: 30
     - id: 32
@@ -2175,8 +2207,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Desesperado) \xBFQu\xE9 has hecho? \xBFD\xF3nde esta el resto de
-          mi equipo?"
+        value: "(Desesperado) \xBFQu\xE9 has hecho? \xBFD\xF3nde est\xE1 el resto
+          de mi equipo?"
         type: 0
         typeString: 
       - title: Sequence
@@ -2204,8 +2236,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 520
+        x: 660.5231
+        y: 905.4751
         width: 160
         height: 30
     - id: 33
@@ -2231,7 +2263,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Tranquilo) \xBFLograron salvar a alguien m\xE1s?"
+        value: "(Tranquilo) \"\xBFLograron salvar a alguien m\xE1s?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2259,8 +2291,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 520
+        x: 919.47046
+        y: 900.2119
         width: 160
         height: 30
     - id: 34
@@ -2287,8 +2319,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Agradecido) De acuerdo. Bueno, gracias por salvarme entonces. Si
-          no le molesta, \xBFPodr\xEDa decirme su nombre?"
+        value: "(Agradecido) \"De acuerdo. Bueno, gracias por salvarme entonces.
+          Si no le molesta, \xBFPodr\xEDa decirme su nombre?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2316,8 +2348,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 620
+        x: 130.69931
+        y: 1059.4225
         width: 160
         height: 30
     - id: 35
@@ -2344,8 +2376,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Enojado) \xBFO sea que ni siquiera lo intentaron? <b>\xA1Te exijo
-          que me digas qui\xE9n eres!</b>"
+        value: "(Enojado) \"\xBFO sea que ni siquiera lo intentaron? <b>\xA1Te exijo
+          que me digas qui\xE9n eres!</b>\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2357,7 +2389,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -2373,8 +2405,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 620
+        x: 331.83875
+        y: 1058.1067
         width: 160
         height: 30
     - id: 36
@@ -2401,8 +2433,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Agradecido) De acuerdo. Bueno, gracias por salvarme entonces. Si
-          no le molesta, \xBFPodr\xEDa decirme su nombre?"
+        value: "(Agradecido) \"De acuerdo. Bueno, gracias por salvarme entonces.
+          Si no le molesta, \xBFPodr\xEDa decirme su nombre?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2414,7 +2446,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -2430,8 +2462,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 620
+        x: 652.6283
+        y: 1067.3173
         width: 160
         height: 30
     - id: 37
@@ -2458,8 +2490,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Enojado) \xBFO sea que ni siquiera lo intentaron? <b>\xA1Te exijo
-          que me digas qui\xE9n eres!</b>"
+        value: "(Enojado) \"\xBFO sea que ni siquiera lo intentaron? <b>\xA1Te exijo
+          que me digas qui\xE9n eres!</b>\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2471,7 +2503,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -2487,8 +2519,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 620
+        x: 832.6283
+        y: 1067.3173
         width: 160
         height: 30
     - id: 38
@@ -2515,7 +2547,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '"Bien. Por lo menos ahora se que no soy prisionero de esos monstruos."'
+        value: "\"Bien. Por lo menos ahora s\xE9 que no soy prisionero de esos monstruos.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2543,8 +2575,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 720
+        x: 215.09036
+        y: 1214.2711
         width: 160
         height: 30
     - id: 39
@@ -2571,7 +2603,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '"Bien. Por lo menos ahora se que no soy prisionero de esos monstruos."'
+        value: "\"Bien. Por lo menos ahora s\xE9 que no soy prisionero de esos monstruos.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2599,8 +2631,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 720
+        x: 754.957
+        y: 1218.0022
         width: 160
         height: 30
     - id: 40
@@ -2654,8 +2686,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300.91742
-        y: 819.0826
+        x: 481.469
+        y: 1372.912
         width: 160
         height: 30
     - id: 41
@@ -2709,8 +2741,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 920
+        x: 475.05707
+        y: 1552.9503
         width: 160
         height: 30
     - id: 42
@@ -2737,8 +2769,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Juguet\xF3n) Por favor. Sr. Hope suena demasiado formal. Usted sabe
-          mi nombre. \xBFPor qu\xE9 no lo usa?"
+        value: "(Juguet\xF3n) \"Por favor. Sr. Hope suena demasiado formal. Usted
+          sabe mi nombre. \xBFPor qu\xE9 no lo usa?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2750,7 +2782,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -2766,8 +2798,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1020
+        x: 295.05707
+        y: 1652.95
         width: 160
         height: 30
     - id: 43
@@ -2794,8 +2826,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: (Frustrado) Ya le he dicho. No me gusta que se dirijan a mi por mi
-          apellido cuando no estoy de servicio.
+        value: "(Frustrado) \"Ya le he dicho. No me gusta que se dirijan a m\xED
+          por mi apellido cuando no estoy de servicio.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2807,7 +2839,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -2823,8 +2855,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1020
+        x: 655.057
+        y: 1652.95
         width: 160
         height: 30
     - id: 44
@@ -2851,7 +2883,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Nervioso) \"Estaba deseando hablar contigo sobre algo. \xBFEstas
+        value: "(Nervioso) \"Estaba deseando hablar contigo sobre algo. \xBFEst\xE1s
           libre esta tarde?\""
         type: 0
         typeString: 
@@ -2880,8 +2912,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 1120
+        x: 205.21701
+        y: 1754.5125
         width: 160
         height: 30
     - id: 45
@@ -2907,7 +2939,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Confiado) Y dime, \xBFTienes planes esta tarde?"
+        value: "(Confiado) \"Y dime, \xBFTienes planes esta tarde?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -2935,8 +2967,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1120
+        x: 385.05707
+        y: 1752.95
         width: 160
         height: 30
     - id: 46
@@ -2963,7 +2995,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Nervioso) \"Estaba deseando hablar contigo sobre algo. \xBFEstas
+        value: "(Nervioso) \"Estaba deseando hablar contigo sobre algo. \xBFEst\xE1s
           libre esta tarde?\""
         type: 0
         typeString: 
@@ -2976,7 +3008,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -2992,8 +3024,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 1120
+        x: 565.05707
+        y: 1752.95
         width: 160
         height: 30
     - id: 47
@@ -3019,7 +3051,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Confiado) Y dime, \xBFTienes planes esta tarde?"
+        value: "(Confiado) \"Y dime, \xBFTienes planes esta tarde?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3031,7 +3063,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 4
@@ -3047,8 +3079,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 1120
+        x: 745.0571
+        y: 1752.95
         width: 160
         height: 30
     - id: 48
@@ -3075,7 +3107,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Por supuesto que s\xED. Solo quiero hablar sobre nosotros, \xBFSabes?"
+        value: "\"Por supuesto que s\xED. Solo quiero hablar sobre nosotros, \xBFSabes?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3103,8 +3135,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1220
+        x: 295.05707
+        y: 1852.95
         width: 160
         height: 30
     - id: 49
@@ -3131,7 +3163,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Por supuesto que s\xED. Solo quiero hablar sobre nosotros, \xBFSabes?"
+        value: "\"Por supuesto que s\xED. Solo quiero hablar sobre nosotros, \xBFSabes?\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3159,8 +3191,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1220
+        x: 655.057
+        y: 1852.95
         width: 160
         height: 30
     - id: 50
@@ -3214,8 +3246,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.60422
-        y: 1454.1981
+        x: 478.0569
+        y: 2034.4006
         width: 160
         height: 30
     - id: 51
@@ -3241,7 +3273,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Gracias Lucy. Es hermoso.
+        value: '"Gracias Lucy. Es hermoso."'
         type: 0
         typeString: 
       - title: Sequence
@@ -3269,8 +3301,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 118.63016
-        y: 1606.3014
+        x: 303.57733
+        y: 2156.8337
         width: 160
         height: 30
     - id: 52
@@ -3296,7 +3328,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Realmente no se que decir Lucy.
+        value: "\"Realmente no s\xE9 que decir Lucy.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3324,8 +3356,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 478.63016
-        y: 1606.3014
+        x: 652.5884
+        y: 2160.1306
         width: 160
         height: 30
     - id: 53
@@ -3351,7 +3383,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Fel\xEDz) Nos vemos mas tarde."
+        value: "(Fel\xEDz) \"Nos vemos m\xE1s tarde.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3379,8 +3411,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 118.63016
-        y: 1706.3014
+        x: 303.57733
+        y: 2256.8337
         width: 160
         height: 30
     - id: 54
@@ -3406,7 +3438,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(Fel\xEDz) Nos vemos mas tarde."
+        value: "(Fel\xEDz) \"Nos vemos m\xE1s tarde.\""
         type: 0
         typeString: 
       - title: Sequence
@@ -3434,8 +3466,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 478.63016
-        y: 1706.3014
+        x: 652.5884
+        y: 2260.1306
         width: 160
         height: 30
     - id: 55
@@ -3489,8 +3521,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 1806.3014
+        x: 476.04016
+        y: 2480.428
         width: 160
         height: 30
     - id: 56
@@ -3544,8 +3576,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 1906.3014
+        x: 476.04016
+        y: 2599.2515
         width: 160
         height: 30
     - id: 57
@@ -3597,8 +3629,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.63016
-        y: 2006.3014
+        x: 476.04016
+        y: 2699.251
         width: 160
         height: 30
     - id: 58
@@ -3630,7 +3662,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=5)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 4
@@ -3654,13 +3686,535 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 299.98743
-        y: 1371.4138
+        x: 478.3412
+        y: 1968.1001
+        width: 160
+        height: 30
+    - id: 59
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "- Otra voz se distingue\n\"M\xFAltiples heridas en el traje y...\"
+          (hace una pausa) \"<b>\xA1Maldici\xF3n!</b> Est\xE1 perdiendo ox\xEDgeno.
+          Necesitamos llevarlo a un m\xF3dulo lo antes posible.\""
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 59
+        destinationConversationID: 4
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 459.88925
+        y: 352.52353
+        width: 160
+        height: 30
+    - id: 60
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\"No hagas ning\xFAn movimiento repentino, o abrir\xE1s la sutura.\"  "
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 4c19f5fa-87c0-40cb-bb24-3947361a242f
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 60
+        destinationConversationID: 4
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      canvasRect:
+        serializedVersion: 2
+        x: 463.44073
+        y: 522.3898
+        width: 160
+        height: 30
+    - id: 61
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "(La mujer se ve sorprendida)\n\n\"Te encontramos justo a tiempo,
+          \xBFSabes?\""
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: SetPortrait(???, pic=7)
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 61
+        destinationConversationID: 4
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 741.4968
+        y: 729.6729
+        width: 160
+        height: 30
+    - id: 62
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "(Me tropiezo y caigo al suelo cuando intento levantarme de la cama)\n\n\"Rel\xE1jate,
+          estas a salvo ahora. Nuestros exploradores te encontraron malherido y casi
+          muerto.\" "
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: SetPortrait(???, pic=8 )
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 62
+        destinationConversationID: 4
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 237.19295
+        y: 744.8628
+        width: 160
+        height: 30
+    - id: 63
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "Es por eso que decid\xED intentar arreglar una vieja antena de comunicaciones
+          de larga distancia, en una colina a unos cuantos kil\xF3metros de aqu\xED."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 63
+        destinationConversationID: 4
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 484.35315
+        y: 1313.182
+        width: 160
+        height: 30
+    - id: 64
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "De hecho, la joven se\xF1orita Lucy y yo hemos estado pasando alg\xFAn
+          tiempo a solas, y estoy comenzando a creer que nuestra relaci\xF3n se hace
+          m\xE1s fuerte con cada d\xEDa que pasa."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 64
+        destinationConversationID: 4
+        destinationDialogueID: 41
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 481.65054
+        y: 1494.7085
+        width: 160
+        height: 30
+    - id: 65
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "Luego de conectar los \xFAltimos cables, consigo finalmente comunicarme
+          con el Cuartel General y les transmito mi posici\xF3n."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 65
+        destinationConversationID: 4
+        destinationDialogueID: 55
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 473.84238
+        y: 2411.908
+        width: 160
+        height: 30
+    - id: 66
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"No nos gusta involucrarnos en este conflicto, y no queremos problemas
+          en nuestra comunidad."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: SetPortrait(Lucy Ferrier, pic=1)
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 66
+        destinationConversationID: 4
+        destinationDialogueID: 38
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 223.30954
+        y: 1158.1068
+        width: 160
+        height: 30
+    - id: 67
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Nosotros no nos involucramos en este conflicto, y ciertamente no
+          queremos problemas en nuestra comunidad."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: SetPortrait(Lucy Ferrier, pic=1)
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 67
+        destinationConversationID: 4
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 750.8474
+        y: 1164.5775
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1, y: 1532.0002}
-    canvasZoom: 0.9999995
+    canvasScrollPosition: {x: 0, y: 2164.8936}
+    canvasZoom: 0.9399996
   syncInfo:
     syncActors: 0
     syncItems: 0

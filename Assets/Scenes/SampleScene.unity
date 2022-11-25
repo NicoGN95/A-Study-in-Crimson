@@ -367,8 +367,8 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -685,8 +685,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -6.450409, y: -9.382492}
+  m_SizeDelta: {x: -12.9009, y: -18.765}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &424966795
 GameObject:
@@ -833,7 +833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -591, y: 142}
+  m_AnchoredPosition: {x: -589, y: 156}
   m_SizeDelta: {x: 278.9648, y: 324.8472}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &424966798
@@ -1203,8 +1203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 921, y: -21}
-  m_SizeDelta: {x: 134, y: 23}
+  m_AnchoredPosition: {x: 910.6061, y: -33.47278}
+  m_SizeDelta: {x: 144.3939, y: 35.4728}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &608166885
 MonoBehaviour:
@@ -1262,11 +1262,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1ed27db4752541943bed37775725087d, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1419,7 +1419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _endDemo: EndDEMO
-  _dialogueManager: {fileID: 691344266}
 --- !u!1001 &689197414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1489,11 +1488,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
---- !u!1 &691344266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
-  m_PrefabInstance: {fileID: 689197414}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &692765314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,22 +1541,6 @@ MonoBehaviour:
         - m_Target: {fileID: 1389344145}
           m_TargetAssemblyTypeName: BackgroundManager, Assembly-CSharp
           m_MethodName: ActivateMarsDunes
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - guid: 8a95a19a-b444-4ed0-8df8-c0318c1b7111
-    onExecute:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1389344145}
-          m_TargetAssemblyTypeName: BackgroundManager, Assembly-CSharp
-          m_MethodName: ActivateHospitalRoom
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1668,6 +1646,42 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - guid: 4c19f5fa-87c0-40cb-bb24-3947361a242f
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1389344145}
+          m_TargetAssemblyTypeName: BackgroundManager, Assembly-CSharp
+          m_MethodName: ActivateHospitalRoom
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 9773382c-855e-4a76-b9ca-0bee4fd8937d
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1389344145}
+          m_TargetAssemblyTypeName: BackgroundManager, Assembly-CSharp
+          m_MethodName: ActivateMarsBattlefield
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 9449c8ce-7870-4d50-a9af-512b8869e796
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!4 &692765316
 Transform:
   m_ObjectHideFlags: 0
@@ -1820,8 +1834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 781.24713, y: -242}
-  m_SizeDelta: {x: 276.5491, y: 323.6393}
+  m_AnchoredPosition: {x: 776.79, y: -232.6175}
+  m_SizeDelta: {x: 267.63, y: 302.5287}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &731788619
 MonoBehaviour:
@@ -2002,11 +2016,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1ed27db4752541943bed37775725087d, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2040,8 +2054,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -7.5, y: 73}
-  m_SizeDelta: {x: -105, y: 115}
+  m_AnchoredPosition: {x: -7.5, y: 76.71855}
+  m_SizeDelta: {x: -105, y: 122.4371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &752760592
 GameObject:
@@ -2084,11 +2098,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1ed27db4752541943bed37775725087d, type: 3}
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2114,8 +2128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -220, y: 19}
-  m_SizeDelta: {x: 0, y: 23}
+  m_AnchoredPosition: {x: -222, y: -0.0000076293945}
+  m_SizeDelta: {x: 0, y: 51.355}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &752760595
 MonoBehaviour:
@@ -2468,6 +2482,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842710312}
   m_CullTransparentMesh: 1
+--- !u!1 &944202398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 944202400}
+  - component: {fileID: 944202399}
+  m_Layer: 0
+  m_Name: LucyPortraitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &944202399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944202398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b64104e96145041b31618266756da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &944202400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944202398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 983.05414, y: 631.21686, z: -4.0089035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067090781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,10 +2756,10 @@ RectTransform:
   m_Father: {fileID: 181366524}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 8, y: -8}
+  m_SizeDelta: {x: 1033.6667, y: 79.5194}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1208542403
 MonoBehaviour:
@@ -3269,8 +3327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 516.83344, y: -24.513243}
-  m_SizeDelta: {x: 913.7922, y: 49.0265}
+  m_AnchoredPosition: {x: 516.83344, y: -39.76}
+  m_SizeDelta: {x: 745.4096, y: 79.519}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387951558
 MonoBehaviour:
@@ -3328,11 +3386,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 1ed27db4752541943bed37775725087d, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -3593,8 +3651,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 385}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 389.4037}
+  m_SizeDelta: {x: 0, y: 1.1927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515667065
 MonoBehaviour:
@@ -3773,7 +3831,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 200}
+  m_SizeDelta: {x: 0, y: 217.8901}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1604950627
 MonoBehaviour:
@@ -4381,7 +4439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5df451395fdf424fb3b4ffdb85dd14e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c088e702fa44e14cab8920f49177623, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
