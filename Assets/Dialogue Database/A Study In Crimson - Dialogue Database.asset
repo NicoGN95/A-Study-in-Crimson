@@ -40,7 +40,7 @@ MonoBehaviour:
     - title: Name
       value: Jefferson Hope
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
@@ -48,7 +48,7 @@ MonoBehaviour:
     - title: Description
       value: Protagonista de la parte 2
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: IsPlayer
       value: True
       type: 2
@@ -403,8 +403,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1846.6654
-        y: 217.22223
+        x: 1850.832
+        y: 218.26389
         width: 160
         height: 30
     - id: 3
@@ -524,7 +524,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1859.9987
+        x: 1852.707
         y: 523.8889
         width: 160
         height: 30
@@ -1948,8 +1948,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1751.1417
-        y: 636.26984
+        x: 1754.2667
+        y: 631.0615
         width: 160
         height: 30
     - id: 29
@@ -3568,8 +3568,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 604.4938, y: 0}
-    canvasZoom: 0.42000023
+    canvasScrollPosition: {x: 1423.0447, y: 71.87503}
+    canvasZoom: 0.95999986
   syncInfo:
     syncActors: 0
     syncItems: 0
