@@ -75,7 +75,7 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
+    portrait: {fileID: 2800000, guid: 76f209c23e9afae4cbf5e5cb1359356e, type: 3}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
@@ -119,7 +119,7 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
+    portrait: {fileID: 2800000, guid: ae117e1ba48fee1499da669760ce1b1f, type: 3}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
@@ -470,11 +470,11 @@ MonoBehaviour:
       - title: Title
         value: 'Siguiente. '
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 2
         type: 5
@@ -486,17 +486,17 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "\"No hagas ning\xFAn movimiento repentino, o abriras la sutura.\" 
           \n\n\"Debes ser el hombre mas afortunado de esta roca. Los exploradores
           te encontraron con menos de un minuto de ox\xEDgeno en tu traje.\""
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -653,8 +653,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1953.3322
-        y: 721.71497
+        x: 1945.5543
+        y: 720.6039
         width: 160
         height: 30
     - id: 7
@@ -3568,8 +3568,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1423.0447, y: 71.87503}
-    canvasZoom: 0.95999986
+    canvasScrollPosition: {x: 1368.6652, y: 377.22223}
+    canvasZoom: 0.8999999
   syncInfo:
     syncActors: 0
     syncItems: 0
