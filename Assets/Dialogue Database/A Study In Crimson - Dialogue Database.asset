@@ -325,6 +325,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: bc320392-d911-4508-b2fb-0dba726a54b3
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -380,6 +384,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 9b825dad-84e7-4c6d-b3d7-f8ee89018462
         type: 0
         typeString: 
       conversationID: 4
@@ -498,7 +506,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: EventGuid
-        value: f191d56f-69f5-4a57-b242-077030596e29
+        value: 8a95a19a-b444-4ed0-8df8-c0318c1b7111
         type: 0
         typeString: 
       conversationID: 4
@@ -944,6 +952,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 0f1a289f-5365-4112-9736-0dc946c06331
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -1058,6 +1070,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: a11c7430-4790-4dcf-84b8-d194044e723f
         type: 0
         typeString: 
       conversationID: 4
@@ -1356,11 +1372,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Ya casi termino de reparar la antena de larga distancia en la cima
+        value: '"Ya casi termino de reparar la antena de larga distancia en la cima
           de la colina, y hay algunas cosas que siento que debo decirte antes de
-          que eventualmente me vaya.\"\n\nLucy Interrumpe:\n\"Yo tambi\xE9n tengo
-          algo que decirte\" \n\"Pero, mientras tanto, hay algo que quisiera darte.\"\n\n(Abre
-          uno de los cajones de su escritorio y saca un collar.)"
+          que eventualmente me vaya."'
         type: 0
         typeString: 
       - title: Sequence
@@ -1378,7 +1392,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 18
         destinationConversationID: 4
-        destinationDialogueID: 50
+        destinationDialogueID: 58
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1415,7 +1429,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Quiero que tengas esto.\"\n\n\"Para que nos recuerdes si es que
+        value: "\"Quiero que tengas esto.\"\n\n\"Para que me recuerdes si es que
           te terminas yendo.\"\n\n(Me doy cuenta de que esta conteniendo las l\xE1grimas)"
         type: 0
         typeString: 
@@ -1450,8 +1464,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1370
+        x: 298.63016
+        y: 1556.3014
         width: 160
         height: 30
     - id: 20
@@ -1505,8 +1519,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1470
+        x: 118.63016
+        y: 1656.3014
         width: 160
         height: 30
     - id: 21
@@ -1561,8 +1575,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1470
+        x: 478.63016
+        y: 1656.3014
         width: 160
         height: 30
     - id: 22
@@ -1599,6 +1613,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 53d763bc-ba10-4499-b66a-13528d80c287
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -1620,8 +1638,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1570
+        x: 298.63016
+        y: 1756.3014
         width: 160
         height: 30
     - id: 23
@@ -1676,8 +1694,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1670
+        x: 298.63016
+        y: 1856.3014
         width: 160
         height: 30
     - id: 24
@@ -1731,8 +1749,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1770
+        x: 298.63016
+        y: 1956.3014
         width: 160
         height: 30
     - id: 25
@@ -2628,8 +2646,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 820
+        x: 300.91742
+        y: 819.0826
         width: 160
         height: 30
     - id: 41
@@ -3188,8 +3206,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1320
+        x: 298.60422
+        y: 1454.1981
         width: 160
         height: 30
     - id: 51
@@ -3243,8 +3261,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1420
+        x: 118.63016
+        y: 1606.3014
         width: 160
         height: 30
     - id: 52
@@ -3298,8 +3316,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1420
+        x: 478.63016
+        y: 1606.3014
         width: 160
         height: 30
     - id: 53
@@ -3353,8 +3371,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 1520
+        x: 118.63016
+        y: 1706.3014
         width: 160
         height: 30
     - id: 54
@@ -3408,8 +3426,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 1520
+        x: 478.63016
+        y: 1706.3014
         width: 160
         height: 30
     - id: 55
@@ -3463,8 +3481,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1620
+        x: 298.63016
+        y: 1806.3014
         width: 160
         height: 30
     - id: 56
@@ -3518,8 +3536,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1720
+        x: 298.63016
+        y: 1906.3014
         width: 160
         height: 30
     - id: 57
@@ -3567,13 +3585,70 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 1820
+        x: 298.63016
+        y: 2006.3014
+        width: 160
+        height: 30
+    - id: 58
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\"Yo tambi\xE9n tengo algo que decirte\" \n\"Pero, mientras tanto,
+          hay algo que quisiera darte.\"\n\n(Abre uno de los cajones de su escritorio
+          y saca un collar.)"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 58
+        destinationConversationID: 4
+        destinationDialogueID: 50
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 299.98743
+        y: 1371.4138
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9399996
+    canvasScrollPosition: {x: 0, y: 1552.7206}
+    canvasZoom: 0.9999995
   syncInfo:
     syncActors: 0
     syncItems: 0
