@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19312
+  controlID: 4416
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19313
+  controlID: 4417
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19314
+  controlID: 4418
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 297
     height: 665
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ed0ffff68d0ffff6ad0ffff48dfffff7ceaffffa2eeffffbcf4ffff2afbfffff4ffffffee900000f8900000089100006895000092950000c09500009c970000a6970000b6970000249a00002e9a00002e9b00005c9b0000749b0000e69b00000e9c0000609c00006c9c0000749c00007a9c0000a49c0000
+      m_ExpandedIDs: 5cf0ffffa0f2ffffdaf2ffffacf7ffffc2f7ffff18f8ffff2af8ffff10faffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -277,7 +277,7 @@ MonoBehaviour:
   - {fileID: 2}
   - {fileID: 9}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 2
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -636,12 +636,12 @@ MonoBehaviour:
   actorFoldouts:
     propertiesKeys: 
     propertiesValues: 
-    fieldsKeys: ffffffff0000000001000000
-    fieldsValues: 000100
+    fieldsKeys: 
+    fieldsValues: 
   actorFilter: 
-  actorListSelectedIndex: 1
-  actorTexturesFoldout: 1
-  actorSpritesFoldout: 1
+  actorListSelectedIndex: -1
+  actorTexturesFoldout: 0
+  actorSpritesFoldout: 0
   showNodeEditor: 1
   currentConversationID: 4
   globalSearchText: 
@@ -650,7 +650,7 @@ MonoBehaviour:
   globalSearchConversationIndex: -1
   globalSearchUseRegex: 0
   databaseFoldouts:
-    database: 0
+    database: 1
     emphasisSettings: 0
     emphasisSetting: 
     globalReplace: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
   isSearchBarOpen: 0
   searchString: 
   searchCaseSensitive: 0
-  currentEntryID: 5
+  currentEntryID: 65
   itemFoldouts:
     propertiesKeys: 
     propertiesValues: 
@@ -732,13 +732,8 @@ MonoBehaviour:
   watches: []
   autoUpdateWatches: 0
   watchUpdateFrequency: 1
-  nextWatchUpdateTime: 8276.944234
-  watchableVariableNames:
-  - Actor
-  - ActorIndex
-  - Alert
-  - Conversant
-  - ConversantIndex
+  nextWatchUpdateTime: 0
+  watchableVariableNames: []
   watchableQuestNames: []
   luaCommand: 
   showNodeIDs: 0
@@ -753,10 +748,10 @@ MonoBehaviour:
   addNewNodesToRight: 0
   autoArrangeOnCreate: 0
   zoomLocked: 0
-  _zoom: 0.7299998
+  _zoom: 0.66999984
   canvasRectWidthMultiplier: 1
   canvasScrollView: {x: 100000, y: 100000}
-  canvasScrollPosition: {x: 1.369873, y: 400.00012}
+  canvasScrollPosition: {x: 0, y: 2043.2847}
   conversationTitles:
   - Demo - Study in Crimson - Parte 2
   conversationIndex: 0
@@ -764,34 +759,7 @@ MonoBehaviour:
   confirmDelete: 1
   trimWhitespaceAroundPipes: 1
   conversationTitleFilter: 
-  prevConversationStack:
-  - Demo - Study in Crimson - Parte 2
-  - A Study in Cripson - Part 2
-  - New Conversation 3
-  - Demo - Study in Crimson - Parte 2
-  - New Conversation 3
-  - Demo - Study in Crimson - Parte 2
-  - New Conversation 3
-  - Demo - Study in Crimson - Parte 2
-  - A Study in Cripson - Part 2
-  - Demo - Study in Crimson - Parte 2
-  - New Conversation 1
-  - Demo - Study in Crimson - Parte 2
-  - New Conversation 3
-  - New Conversation 1
-  - New Conversation 3
-  - Demo - Study in Crimson - Parte 2
-  - New Conversation 3
-  - Demo - Study in Crimson - Parte 2
-  - A Study in Cripson - Part 2
-  - Demo - Study in Crimson - Parte 2
-  - A Study in Cripson - Part 2
-  - New Conversation 1
-  - A Study in Cripson - Part 2
-  - New Conversation 3
-  - Demo - Study in Crimson - Parte 2
-  - A Study in Cripson - Part 2
-  - New Conversation 1
+  prevConversationStack: []
   nextConversationStack: []
 --- !u!114 &10
 MonoBehaviour:
@@ -861,22 +829,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Arte/Jefferson
+    - Assets/Dialogue Database
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Arte/Jefferson
+  - Assets/Dialogue Database
   m_LastFoldersGridSize: 96
   m_LastProjectPath: E:\Unity Projects\Repos\A-Study-in-Crimson
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 3}
-    m_SelectedIDs: 049b0000
-    m_LastClickedID: 39684
-    m_ExpandedIDs: 00000000fc710000fe710000007200000272000004720000067200000872000000ca9a3b
+    scrollPos: {x: 0, y: 63}
+    m_SelectedIDs: 80720000
+    m_LastClickedID: 29312
+    m_ExpandedIDs: 00000000dc710000de710000e0710000e2710000e4710000e6710000e871000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -904,7 +872,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc710000fe710000007200000272000004720000067200000872000000ca9a3b
+    m_ExpandedIDs: 00000000dc710000de710000e0710000e2710000e4710000e6710000e871000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -929,8 +897,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 849b0000
-    m_LastClickedInstanceID: 39812
+    m_SelectedInstanceIDs: 786c0000
+    m_LastClickedInstanceID: 27768
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009a8f000058920000
     m_RenameOverlay:
@@ -1007,8 +975,8 @@ MonoBehaviour:
     y: 0
     width: 494
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -1045,10 +1013,10 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 290
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 39812
+  m_LastInspectedObjectInstanceID: 27768
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
