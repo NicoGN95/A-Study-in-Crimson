@@ -91,7 +91,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: Narrador
+      value: Jefferson
       type: 0
       typeString: 
     - title: Pictures
@@ -886,7 +886,7 @@ MonoBehaviour:
         destinationDialogueID: 66
         isConnector: 0
         priority: 2
-      conditionsString: SetPortrait(???, pic=2 )
+      conditionsString: SetPortrait(Lucy Ferrier, pic=2 )
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -926,7 +926,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=10)
         type: 0
         typeString: 
       conversationID: 4
@@ -977,7 +977,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Han pasado 3 meses desde que las personas del puesto de avanzada
+        value: "Han pasado tres meses desde que las personas del puesto de avanzada
           Abbatis Villa me salvaron, y ya me han aceptado como un integrante m\xE1s.\nTodav\xEDa
           sigo sin poder comunicarme con mi l\xEDder de pelot\xF3n, o con cualquier
           miembro del ej\xE9rcito, llegado el caso. Parece que la guerrilla ha bloqueado
@@ -1102,7 +1102,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       - title: EventGuid
@@ -1170,7 +1170,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=3)
         type: 0
         typeString: 
       conversationID: 4
@@ -1235,7 +1235,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=9)
         type: 0
         typeString: 
       conversationID: 4
@@ -1299,7 +1299,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=4)
         type: 0
         typeString: 
       conversationID: 4
@@ -1323,7 +1323,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 295.05707
+        x: 299.3124
         y: 1802.95
         width: 160
         height: 30
@@ -1355,7 +1355,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -1468,7 +1468,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=8)
         type: 0
         typeString: 
       conversationID: 4
@@ -1529,7 +1529,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -1585,7 +1585,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
         typeString: 
       conversationID: 4
@@ -1610,7 +1610,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 652.5884
-        y: 2210.1306
+        y: 2211.1946
         width: 160
         height: 30
     - id: 22
@@ -1670,7 +1670,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 471.4894
+        x: 470.42557
         y: 2326.614
         width: 160
         height: 30
@@ -2011,7 +2011,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 229.70209
-        y: 667.01465
+        y: 665.74884
         width: 160
         height: 30
     - id: 29
@@ -3662,7 +3662,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=5)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 4
@@ -4128,7 +4128,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: SetPortrait(???, pic=1)
+        value: SetPortrait(Lucy Ferrier, pic=1)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 4
@@ -4184,7 +4184,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=1)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 4
@@ -4213,8 +4213,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 15.068481, y: 631.9187}
-    canvasZoom: 0.7299998
+    canvasScrollPosition: {x: 1.2657471, y: 721.51917}
+    canvasZoom: 0.7899997
   syncInfo:
     syncActors: 0
     syncItems: 0
