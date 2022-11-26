@@ -884,7 +884,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=2 )
         type: 0
         typeString: 
       conversationID: 4
@@ -901,7 +901,7 @@ MonoBehaviour:
         destinationDialogueID: 66
         isConnector: 0
         priority: 2
-      conditionsString: SetPortrait(Lucy Ferrier, pic=2 )
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -2350,6 +2350,10 @@ MonoBehaviour:
         value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -2371,8 +2375,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 130.69931
-        y: 1059.4225
+        x: 99.120346
+        y: 1047.5804
         width: 160
         height: 30
     - id: 35
@@ -2462,6 +2466,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: SetPortrait(Jefferson Hope, pic=2 )
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: ecd8adb2-bb66-42b3-997d-4858eea78713
         type: 0
         typeString: 
       conversationID: 4
@@ -4257,8 +4265,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 2043.2847}
-    canvasZoom: 0.66999984
+    canvasScrollPosition: {x: 115.76501, y: 695.81287}
+    canvasZoom: 0.75999975
   syncInfo:
     syncActors: 0
     syncItems: 0
