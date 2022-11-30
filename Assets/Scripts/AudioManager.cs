@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -32,7 +30,16 @@ public class AudioManager : MonoBehaviour
     }
     public void PlayHospitalSound()
     {
-        _audioSource.PlayOneShot(_hospitalMachinesClip);
+        _audioSource.clip = _hospitalMachinesClip;
+        _audioSource.Play();
+        _audioSource.loop = true;
     }
 
+    
+    public void StopSound()
+    {
+        _audioSource.Stop();
+    }
+    
+    
 }

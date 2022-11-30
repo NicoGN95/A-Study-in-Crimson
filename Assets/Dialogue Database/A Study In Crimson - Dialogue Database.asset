@@ -527,11 +527,11 @@ MonoBehaviour:
       - title: Title
         value: 'Siguiente. '
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 6
         type: 5
@@ -543,20 +543,20 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "\"Debes ser el hombre m\xE1s afortunado de esta roca. Los exploradores
           te encontraron con menos de un minuto de ox\xEDgeno en tu traje.\""
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: 9449c8ce-7870-4d50-a9af-512b8869e796
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -584,8 +584,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 472.40558
-        y: 609.6773
+        x: 465.8266
+        y: 610.99316
         width: 160
         height: 30
     - id: 5
@@ -717,7 +717,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 741.5469
+        x: 742.9553
         y: 801.32153
         width: 160
         height: 30
@@ -1028,8 +1028,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 477.75977
-        y: 1248.8962
+        x: 479.1682
+        y: 1247.4878
         width: 160
         height: 30
     - id: 12
@@ -1086,7 +1086,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 478.3538
+        x: 476.81534
         y: 1434.8185
         width: 160
         height: 30
@@ -1095,11 +1095,11 @@ MonoBehaviour:
       - title: Title
         value: 'Siguiente.    '
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 2
         type: 5
@@ -1111,19 +1111,19 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "\"Ah, Sr. Hope. \xBFQu\xE9 lo trae a mi oficina hoy?\""
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: a11c7430-4790-4dcf-84b8-d194044e723f
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -2025,8 +2025,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 229.70209
-        y: 665.74884
+        x: 235.33588
+        y: 667.15735
         width: 160
         height: 30
     - id: 29
@@ -2139,8 +2139,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 66.22562
-        y: 921.2646
+        x: 73.7256
+        y: 908.6062
         width: 160
         height: 30
     - id: 31
@@ -2191,6 +2191,12 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
+      - originConversationID: 4
+        originDialogueID: 31
+        destinationConversationID: 4
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2198,8 +2204,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 437.1019
-        y: 913.3699
+        x: 430.75052
+        y: 908.9337
         width: 160
         height: 30
     - id: 32
@@ -2432,8 +2438,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 331.83875
-        y: 1058.1067
+        x: 341.83875
+        y: 1049.3567
         width: 160
         height: 30
     - id: 36
@@ -2493,8 +2499,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 652.6283
-        y: 1067.3173
+        x: 636.37836
+        y: 1054.8173
         width: 160
         height: 30
     - id: 37
@@ -2550,8 +2556,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 832.6283
-        y: 1067.3173
+        x: 842.6283
+        y: 1057.3173
         width: 160
         height: 30
     - id: 38
@@ -2606,8 +2612,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 215.09036
-        y: 1214.2711
+        x: 222.13263
+        y: 1212.8627
         width: 160
         height: 30
     - id: 39
@@ -2662,8 +2668,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 754.957
-        y: 1218.0022
+        x: 753.707
+        y: 1216.7522
         width: 160
         height: 30
     - id: 40
@@ -4265,8 +4271,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 115.76501, y: 695.81287}
-    canvasZoom: 0.75999975
+    canvasScrollPosition: {x: 0, y: 724.3222}
+    canvasZoom: 0.74000114
   syncInfo:
     syncActors: 0
     syncItems: 0
