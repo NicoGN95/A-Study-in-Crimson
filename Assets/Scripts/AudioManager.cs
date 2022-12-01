@@ -31,6 +31,7 @@ public class AudioManager : MonoBehaviour
     public void PlayHospitalSound()
     {
         _audioSource.clip = _hospitalMachinesClip;
+        _audioSource.volume = 0.04f;
         _audioSource.Play();
         _audioSource.loop = true;
     }
