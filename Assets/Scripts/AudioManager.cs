@@ -8,6 +8,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip _fallingClip;
     [SerializeField] private AudioClip _gruntClip;
     [SerializeField] private AudioClip _hospitalMachinesClip;
+    [SerializeField] private AudioClip _introClip;
+    [SerializeField] private AudioClip _endingClip;
 
     public void PlayMoveBody()
     {
@@ -35,8 +37,23 @@ public class AudioManager : MonoBehaviour
         _audioSource.Play();
         _audioSource.loop = true;
     }
+    public void PlayIntroSound()
+    {
+        _audioSource.clip = _introClip;
+        _audioSource.volume = 0.01f;
+        _audioSource.Play();
+        _audioSource.loop = true;
+    }
 
-    
+    public void PlayEndingSound()
+    {
+        _audioSource.clip = _endingClip;
+        _audioSource.volume = 0.01f;
+        _audioSource.Play();
+        _audioSource.loop = true;
+    }
+
+
     public void StopSound()
     {
         _audioSource.Stop();

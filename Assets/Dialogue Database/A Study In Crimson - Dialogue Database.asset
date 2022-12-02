@@ -1948,6 +1948,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 889fecc7-b607-4dc8-9767-26b75175e1cc
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -2754,6 +2758,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
         value: 
         type: 0
         typeString: 
@@ -4271,7 +4279,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 2302.6978}
+    canvasScrollPosition: {x: 0, y: 2212.976}
     canvasZoom: 0.74000114
   syncInfo:
     syncActors: 0

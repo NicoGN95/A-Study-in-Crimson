@@ -739,6 +739,8 @@ MonoBehaviour:
   _fallingClip: {fileID: 8300000, guid: 1b4228c94c84c144c9111214fe487e23, type: 3}
   _gruntClip: {fileID: 8300000, guid: cfcb1af18877cd247aa500c5172388bb, type: 3}
   _hospitalMachinesClip: {fileID: 8300000, guid: 3370fc98be5782848b289d3da667d14f, type: 3}
+  _introClip: {fileID: 8300000, guid: 303df3c7ba267824cb6b7faf6fc30df0, type: 3}
+  _endingClip: {fileID: 8300000, guid: 1a7c2278957126f4a82439e70289af23, type: 3}
 --- !u!4 &431896425
 Transform:
   m_ObjectHideFlags: 0
@@ -1516,6 +1518,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 431896424}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlayEndingSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - guid: a11c7430-4790-4dcf-84b8-d194044e723f
     onExecute:
       m_PersistentCalls:
@@ -1596,6 +1610,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 431896424}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: StopSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - guid: 4c19f5fa-87c0-40cb-bb24-3947361a242f
     onExecute:
       m_PersistentCalls:
@@ -1631,6 +1657,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1389344145}
           m_TargetAssemblyTypeName: BackgroundManager, Assembly-CSharp
           m_MethodName: ActivateMarsBattlefield
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 431896424}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlayIntroSound
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1760,6 +1798,22 @@ MonoBehaviour:
     onExecute:
       m_PersistentCalls:
         m_Calls: []
+  - guid: 889fecc7-b607-4dc8-9767-26b75175e1cc
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 431896424}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: StopSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &692765316
 Transform:
   m_ObjectHideFlags: 0

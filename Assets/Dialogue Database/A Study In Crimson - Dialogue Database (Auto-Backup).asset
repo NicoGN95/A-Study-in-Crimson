@@ -53,9 +53,11 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
+    portrait: {fileID: 2800000, guid: 72afd9a01075d4b4ab073f625d043190, type: 3}
     spritePortrait: {fileID: 0}
-    alternatePortraits: []
+    alternatePortraits:
+    - {fileID: 2800000, guid: fa740513c29bc0c41aefc23f7c1e4db5, type: 3}
+    - {fileID: 2800000, guid: dcd0cd90714a69b468df406cc155ff1b, type: 3}
     spritePortraits: []
   - id: 2
     fields:
@@ -338,7 +340,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 461.81824
-        y: 12.72728
+        y: 11.411491
         width: 160
         height: 30
     - id: 1
@@ -525,11 +527,11 @@ MonoBehaviour:
       - title: Title
         value: 'Siguiente. '
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 6
         type: 5
@@ -541,20 +543,20 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "\"Debes ser el hombre m\xE1s afortunado de esta roca. Los exploradores
           te encontraron con menos de un minuto de ox\xEDgeno en tu traje.\""
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: 9449c8ce-7870-4d50-a9af-512b8869e796
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -582,8 +584,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 471.0357
-        y: 611.0472
+        x: 465.8266
+        y: 610.99316
         width: 160
         height: 30
     - id: 5
@@ -617,7 +619,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetPortrait(???, pic=8 )
+        value: 'SetPortrait(???, pic=8 )
+
+          SetPortrait(Jefferson Hope, pic=3
+          )'
         type: 0
         typeString: 
       conversationID: 4
@@ -680,7 +685,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetPortrait(???, pic=7)
+        value: 'SetPortrait(???, pic=7)
+
+          SetPortrait(Jefferson Hope, pic=2)'
         type: 0
         typeString: 
       conversationID: 4
@@ -710,8 +717,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 741.5469
-        y: 804.30664
+        x: 742.9553
+        y: 801.32153
         width: 160
         height: 30
     - id: 7
@@ -720,11 +727,11 @@ MonoBehaviour:
         value: "(Desesperado) \xBFQu\xE9 has hecho? \xBFD\xF3nde esta el resto de
           mi equipo?"
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 6
         type: 5
@@ -736,15 +743,19 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "\"Los exploradores solo te trajeron a ti.\" \n\n\"Dijeron que t\xFA
           eras la \xFAnica se\xF1al de vida que pudieron encontrar.\"\n\n(Quiz\xE1s
           deber\xEDa calmarme)"
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: SetPortrait(???, pic=8 )
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 0bff64f9-6b17-42a2-b4dc-baa8a5172fff
         type: 0
         typeString: 
       conversationID: 4
@@ -810,6 +821,10 @@ MonoBehaviour:
         value: SetPortrait(???, pic=8 )
         type: 0
         typeString: 
+      - title: EventGuid
+        value: a34176e6-2c4a-4279-bf23-f332f640105a
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -837,8 +852,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 755.7009
-        y: 992.31726
+        x: 757.1935
+        y: 990.8247
         width: 160
         height: 30
     - id: 9
@@ -869,7 +884,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Lucy Ferrier, pic=2 )
         type: 0
         typeString: 
       conversationID: 4
@@ -886,7 +901,7 @@ MonoBehaviour:
         destinationDialogueID: 66
         isConnector: 0
         priority: 2
-      conditionsString: SetPortrait(Lucy Ferrier, pic=2 )
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1013,8 +1028,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 477.75977
-        y: 1248.8962
+        x: 479.1682
+        y: 1247.4878
         width: 160
         height: 30
     - id: 12
@@ -1071,7 +1086,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 478.3538
+        x: 476.81534
         y: 1434.8185
         width: 160
         height: 30
@@ -1080,11 +1095,11 @@ MonoBehaviour:
       - title: Title
         value: 'Siguiente.    '
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 2
         type: 5
@@ -1096,19 +1111,19 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "\"Ah, Sr. Hope. \xBFQu\xE9 lo trae a mi oficina hoy?\""
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: SetPortrait(Lucy Ferrier, pic=7)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: a11c7430-4790-4dcf-84b8-d194044e723f
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -1137,7 +1152,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 475.05707
-        y: 1602.95
+        y: 1601.6343
         width: 160
         height: 30
     - id: 14
@@ -1412,7 +1427,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: 
       conversationID: 4
@@ -1730,8 +1745,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480.51776
-        y: 2538.8037
+        x: 480.51782
+        y: 2547.759
         width: 160
         height: 30
     - id: 24
@@ -1789,8 +1804,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 476.04016
-        y: 2649.251
+        x: 476.04022
+        y: 2658.2063
         width: 160
         height: 30
     - id: 25
@@ -1986,7 +2001,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=3 )
         type: 0
         typeString: 
       conversationID: 4
@@ -2010,8 +2025,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 229.70209
-        y: 665.74884
+        x: 235.33588
+        y: 667.15735
         width: 160
         height: 30
     - id: 29
@@ -2043,7 +2058,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -2100,7 +2115,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic= 3)
         type: 0
         typeString: 
       conversationID: 4
@@ -2124,8 +2139,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 66.22562
-        y: 921.2646
+        x: 73.7256
+        y: 908.6062
         width: 160
         height: 30
     - id: 31
@@ -2155,7 +2170,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: dabd7be9-4cfc-4f4f-a68b-4a01d4084a8a
         type: 0
         typeString: 
       conversationID: 4
@@ -2172,6 +2191,12 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
+      - originConversationID: 4
+        originDialogueID: 31
+        destinationConversationID: 4
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2179,8 +2204,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 437.1019
-        y: 913.3699
+        x: 430.75052
+        y: 908.9337
         width: 160
         height: 30
     - id: 32
@@ -2212,7 +2237,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=3 )
         type: 0
         typeString: 
       conversationID: 4
@@ -2267,7 +2292,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1 )
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 2f5cfa81-9fae-458f-b78a-202a6c07d19a
         type: 0
         typeString: 
       conversationID: 4
@@ -2324,6 +2353,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: SetPortrait(Jefferson Hope, pic=2)
+        type: 0
+        typeString: 
+      - title: EventGuid
         value: 
         type: 0
         typeString: 
@@ -2348,8 +2381,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 130.69931
-        y: 1059.4225
+        x: 99.120346
+        y: 1047.5804
         width: 160
         height: 30
     - id: 35
@@ -2381,7 +2414,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=3 )
         type: 0
         typeString: 
       conversationID: 4
@@ -2405,8 +2438,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 331.83875
-        y: 1058.1067
+        x: 341.83875
+        y: 1049.3567
         width: 160
         height: 30
     - id: 36
@@ -2438,7 +2471,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2 )
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: ecd8adb2-bb66-42b3-997d-4858eea78713
         type: 0
         typeString: 
       conversationID: 4
@@ -2462,8 +2499,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 652.6283
-        y: 1067.3173
+        x: 636.37836
+        y: 1054.8173
         width: 160
         height: 30
     - id: 37
@@ -2495,7 +2532,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=3 )
         type: 0
         typeString: 
       conversationID: 4
@@ -2519,8 +2556,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 832.6283
-        y: 1067.3173
+        x: 842.6283
+        y: 1057.3173
         width: 160
         height: 30
     - id: 38
@@ -2551,7 +2588,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2575,8 +2612,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 215.09036
-        y: 1214.2711
+        x: 222.13263
+        y: 1212.8627
         width: 160
         height: 30
     - id: 39
@@ -2607,7 +2644,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2631,8 +2668,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 754.957
-        y: 1218.0022
+        x: 753.707
+        y: 1216.7522
         width: 160
         height: 30
     - id: 40
@@ -2774,7 +2811,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -2831,7 +2868,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2855,7 +2892,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 655.057
+        x: 656.3728
         y: 1652.95
         width: 160
         height: 30
@@ -2888,7 +2925,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2943,7 +2980,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3000,7 +3037,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: 
       conversationID: 4
@@ -3025,7 +3062,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 565.05707
-        y: 1752.95
+        y: 1751.6342
         width: 160
         height: 30
     - id: 47
@@ -3055,7 +3092,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3111,7 +3148,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3167,7 +3204,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3277,7 +3314,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3332,7 +3369,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3387,7 +3424,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3442,7 +3479,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=2)
         type: 0
         typeString: 
       conversationID: 4
@@ -3500,6 +3537,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -3521,8 +3562,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 476.04016
-        y: 2480.428
+        x: 476.04022
+        y: 2489.3833
         width: 160
         height: 30
     - id: 56
@@ -3576,8 +3617,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 476.04016
-        y: 2599.2515
+        x: 476.04022
+        y: 2608.2068
         width: 160
         height: 30
     - id: 57
@@ -3629,8 +3670,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 476.04016
-        y: 2699.251
+        x: 476.04022
+        y: 2708.2063
         width: 160
         height: 30
     - id: 58
@@ -3722,6 +3763,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 645052e8-e829-4117-8e81-204d7945e145
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -3846,7 +3891,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: SetPortrait(???, pic=7)
+        value: 'SetPortrait(???, pic=7)
+
+          SetPortrait(Jefferson Hope, pic=2)'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 4
@@ -3903,9 +3950,16 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: SetPortrait(???, pic=8 )
+        value: 'SetPortrait(???, pic=8 )
+
+          SetPortrait(Jefferson Hope, pic=3
+          )'
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 99fda4d0-e51f-49bc-addd-24051cfa718e
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -4072,9 +4126,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetPortrait(Jefferson Hope, pic=1)
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 62d3247a-93f6-4461-9beb-5661dc2f3ff6
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -4096,7 +4154,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 473.84238
+        x: 475.33493
         y: 2411.908
         width: 160
         height: 30
@@ -4213,8 +4271,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1.2657471, y: 721.51917}
-    canvasZoom: 0.7899997
+    canvasScrollPosition: {x: 0, y: 2302.6978}
+    canvasZoom: 0.74000114
   syncInfo:
     syncActors: 0
     syncItems: 0
